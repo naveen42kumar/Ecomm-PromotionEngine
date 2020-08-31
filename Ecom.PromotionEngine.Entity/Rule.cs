@@ -20,5 +20,9 @@
 		/// </summary>
 		public string Details { get; set; }
 
+		/// <summary>
+		/// Discount price to be applied
+		/// </summary>
+		public decimal DiscountedPrice { get; set; }
 	}
 }

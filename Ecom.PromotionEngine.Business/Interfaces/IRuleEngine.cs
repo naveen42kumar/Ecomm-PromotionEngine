@@ -11,9 +11,9 @@ namespace Ecom.PromotionEngine.Business.Interfaces
 	public interface IRuleEngine
 	{
 		/// <summary>
-		/// Discount price to be applied
+		/// Rule
 		/// </summary>
-		public decimal DiscountedPrice { get; set; }
+		public Rule Rule { get; set; }
 
 		/// <summary>
 		/// Calculates the selling price of the product based on rule

@@ -29,5 +29,10 @@
 		/// Price of the product
 		/// </summary>
 		public decimal Price { get; set; }
+
+		/// <summary>
+		/// Rule mapping to the product
+		/// </summary>
+		public int RuleId { get; set; }
 	}
 }
